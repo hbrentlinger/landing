@@ -1,6 +1,451 @@
-#insta {
-	position: absolute;
-	z-index: 99;
-	top: 37px;
-	left: 37px;
+@import url("//hello.myfonts.net/count/363c67");
+
+
+@font-face {font-family: 'FuturaDisD';src: url('webfonts/363C67_0_0.eot');src: url('webfonts/363C67_0_0.eot?#iefix') format('embedded-opentype'),url('webfonts/363C67_0_0.woff2') format('woff2'),url('webfonts/363C67_0_0.woff') format('woff'),url('webfonts/363C67_0_0.ttf') format('truetype');}
+
+
+a {
+color: black;
+text-decoration: none;
 }
+
+
+a:hover {
+transform: scaleY(1.5);
+color: #ff6138;
+}
+
+b {
+font-family: futura;
+font-weight: bold;
+font-size: 10pt;
+}
+
+#credit {
+position: relative;
+bottom: 36px;
+font-family: "Bodoni URW";
+font-size: 10pt;
+font-style: italic;
+}
+h1 {
+font-family: futura;
+font-size: 10pt;
+letter-spacing: .1rem;
+
+}
+
+
+#count
+{
+width: 400px;
+position: absolute;
+top: 72pxpx;
+right: 72px
+}
+
+
+h3 {
+font-family: futura;
+font-weight: bold;
+}
+
+.big {
+font-family: futura;
+font-weight: bold;	
+}
+
+#blurb {
+width: 500px;
+text-align: justify;
+margin: auto;
+margin-top: 100px;
+font-family: "Bodoni URW";
+font-size: 12pt;
+line-height: 15pt;
+font-style: italic;
+}
+
+#tagline {
+margin-bottom: 50px;
+}
+
+#status {
+margin-top: 150px;
+margin-bottom: 150px;
+}
+
+#slideshow {
+margin: 0 auto;
+border: none;
+margin-top: 15px;
+}
+
+h2 {
+font-family: "Bodoni URW";
+font-size: 10pt;
+line-height: 13pt;
+font-style: italic;
+text-align: center;
+color: black;
+}
+
+
+
+button{
+display: none;
+}
+
+form {
+position: relative;
+font-family: "Bodoni URW";
+font-size: 10pt;
+text-align: center;
+margin-bottom: 30px;
+font-style: oblique;
+
+}
+
+input {
+border: solid;
+width: 350px;
+height: 35px;
+border-color: black;
+font-family: "Bodoni URW";
+font-size: 10pt;
+text-align: center;
+}
+
+br {
+
+}
+.num {
+font-family: futura;
+font-weight: bold;
+}
+#push {
+
+}
+
+#push2 {
+
+margin-top: 150px;
+margin-bottom: 100px;
+}
+
+
+#illo2 {
+position: auto;
+margin-top:30px;
+float: left;
+}
+
+#mission_statement {
+font-family: "Bodoni URW";
+font-style: roman;
+font-size: 14pt;
+line-height: 18pt;
+max-width: 500px;
+float: right;
+margin-top: 72px;
+}
+
+
+#group1 {
+position: auto;    
+font-family: "Bodoni URW";
+font-style: roman;
+font-size: 14pt;
+line-height: 18pt;
+max-width: 900px;
+
+margin: 0 auto;
+}
+
+
+
+#group2  {
+position: auto;
+width: 800px;
+margin: 0 auto;
+margin-top: 120px;
+}
+
+#noaction1 {
+width: 1000px;
+
+
+
+font-family: "Bodoni URW";
+font-size: 14pt;
+line-height: 19pt;
+list-style: disc outside none;
+margin-left: 0;
+padding-left: 1em;
+text-indent: -1em;
+}
+
+#categories {
+font-family: futura;
+font-weight: bold;
+letter-spacing: .1rem;
+font-size: 8pt;
+width: 700px;
+column-count: 4;
+column-gap: 50px;
+margin-top: 150px;
+text-align: center;
+}
+
+#group3 {
+position: auto;
+width: 900px;
+margin: 0 auto;
+margin-top: 120px;
+margin-bottom: 250px;
+
+}
+
+.letter {
+display: inline-block;
+margin: 20px;
+position: relative;
+height: 100px;
+width: 100px;
+}
+
+
+
+#deardonald {
+text-align: center;
+margin-top: 775px;
+width: 550px;
+
+}
+#sidebar {
+position: fixed;
+top: 0;
+left: 0;
+height: 99%;
+width: 60px;
+border-style: solid;
+border-width: 5px;
+}
+
+#pencil {
+position: relative;
+margin-bottom: 150px;
+
+}
+
+#menu {
+font-family: Futura;
+font-weight: bold;
+font-size: 10pt;
+-webkit-translate: left(450px);
+-webkit-transform: rotate(270deg);
+width: 500px;
+position: fixed;
+left: -214px;
+top: 48%;
+margin-right: 50px;
+letter-spacing: .1rem;
+}
+
+#logo {
+position: fixed;
+margin-top: 75px;
+-webkit-transform: rotate(270deg);
+font-family: futura display BQ;
+left: -40px;
+font-size: 18pt;
+}
+
+#insta {
+position: fixed;
+bottom: 18px;
+left: 24px;
+display:block;
+}
+
+#insta:hover {
+position: fixed;
+bottom: 18px;
+left: 24px;
+-webkit-transform: scale(1.1);
+transition-timing-function: ease-in-out;
+transition: .5s;
+}
+
+
+#tag {
+position: absolute;
+top: 12px;
+left: 85px;
+}
+
+#title {
+font-family: futura;
+font-weight: bold;
+letter-spacing: .1rem;
+font-size: 8pt;
+}
+
+#description {
+font-family: "Bodoni URW";
+font-size: 10pt;
+font-style: oblique;
+line-height: 13pt;
+}
+
+
+#illo1 {
+position: auto;
+margin-top: 100px;
+margin-bottom: 75px;
+
+}
+
+
+#instructions {
+position: relative;
+top: 25px;
+font-family: "Bodoni URW";
+font-style: oblique;
+font-size: 10pt;
+
+}
+
+
+#thelist {
+position: relative;
+text-align: justify;
+max-width: 800px;
+font-family: "Bodoni URW";
+font-size: 14pt;
+line-height: 20pt;
+margin-top: 100px;
+margin-bottom: 250px;
+
+}
+
+#illo3 {
+position: absolute;
+float: right;
+margin-left: 500px;
+}
+
+#action {
+width: 400px;
+font-family: "Bodoni URW";
+font-size: 14pt;
+line-height: 19pt;
+list-style: disc outside none;
+margin-left: 0;
+padding-left: 1em;
+text-indent: -1em;
+}
+
+
+#timeline {
+height: 3590px;
+width: 127.5px;
+float: right;
+position: absolute;
+background: url(../images/timeline1.png);
+background-size: 100% 100%;
+background-repeat: no-repeat;
+top: 850px;
+left: 85%;
+}
+#phone {
+	display:none;
+	z-index: 99;
+	position: absolute;
+	left: 0;
+	top: 20;
+}
+/* Tablet Version */
+@media (max-height:650px) {
+
+#menu {
+font-family: Futura;
+font-weight: bold;
+font-size: 8pt;
+-webkit-translate: left(450px);
+-webkit-transform: rotate(270deg);
+width: 500px;
+position: fixed;
+left: -214px;
+top: 54%;
+margin-right: 50px;
+letter-spacing: .1rem;
+}
+
+#insta {
+position: fixed;
+bottom: 18px;
+left: 24px;
+display:none;
+}
+
+#tag {
+position: absolute;
+top: 12px;
+left: 85px;
+}
+
+
+
+@media (max-height:570px) {
+
+#menu {
+font-family: Futura;
+font-weight: bold;
+font-size: 6pt;
+-webkit-translate: left(450px);
+-webkit-transform: rotate(270deg);
+width: 500px;
+position: fixed;
+left: -214px;
+top: 42%;
+margin-right: 50px;
+letter-spacing: .1rem;
+}
+
+#logo {
+position: fixed;
+margin-top: 50px;
+-webkit-transform: rotate(270deg);
+font-family: futura display BQ;
+left: -15px;
+font-size: 12pt;
+}
+
+#insta {
+position: fixed;
+bottom: 18px;
+left: 24px;
+display:none;
+}
+
+
+
+}
+
+/* phone Version */
+@media (max-width:700px) {
+
+#phone {
+	display:;
+	z-index: 99;
+	position: absolute;
+	left: 0;
+	top: 20;
+}
+
+html body{
+	display: hidden;
+}
+}
+
