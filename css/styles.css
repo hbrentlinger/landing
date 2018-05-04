@@ -253,12 +253,12 @@ letter-spacing: .1rem;
 }
 
 #logo {
-position: fixed;
-margin-top: 75px;
--webkit-transform: rotate(270deg);
-font-family: FuturaDisD;
-left: -40px;
-font-size: 18pt;
+    position: fixed;
+    margin-top: 75px;
+    -webkit-transform: rotate(270deg);
+    font-family: FuturaDisD;
+    left: -40px;
+    font-size: 20pt;
 }
 
 #insta {
